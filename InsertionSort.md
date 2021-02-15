@@ -1,8 +1,6 @@
 # Insert Sort Blog
 The Insert sort method will take an array and sort the values as they are encountered from front to back. This means that every position before the value being checked has already been sorted. So as each value is checked, in order to place it into the already sorted section, a value larger than the value checked will move forward in position in order to make room. 
 
-![Whiteboard](../../../resources/pseudo1.PNG)
-
 ### Walkthrough
 
 The first step of the insertion sort is to find the lowest value to place at the front of the array. We do this by iterating through the entire array, comparing the values. When that value is found, it is swapped in place with whatever value was at index 0.
@@ -15,7 +13,7 @@ The first four numbers are ordered in place, so we check the last two numbers va
 
 We iterate using a for loop, and we swap the values in place using a temp variable. This works by finding the two values that will be swapped, i and j. i is assigned to be the temp variable, then i is replaced with j. The previous j is assigned to the temp, thus the swap is done!
 
-![Whiteboard](../../../resources/codeChallenge26.PNG)
+![Whiteboard](insertionSort.PNG)
 
 ### Efficiency and time
 
