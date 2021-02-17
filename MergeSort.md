@@ -1,8 +1,7 @@
 # Merge Sort Blog
-- The Mergesort method will take an array and sort the values in ascending order like insert sort. However, merge sort breaks everything down.
+The Mergesort method will take an array and sort the values in ascending order like insert sort. However, merge sort breaks everything down.
 
 
-![Whiteboard](mergeSorting.PNG)
 ### How does it work?
 Initially our array is iterated over and the middle is found, the middle here is 1. Then the array is split into a left and right arrays based off the middle.
 
