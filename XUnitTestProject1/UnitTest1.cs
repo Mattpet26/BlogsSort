@@ -34,6 +34,21 @@ namespace XUnitTestProject1
             Assert.Equal(expected.ToString(), actual.ToString());
             Assert.Equal(expectedTwo.ToString(), actualTwo.ToString());
         }
+        [Fact]
+        public void TestQuickSort()
+        {
+            int[] actual = { 8, 4, 23, 42, 16, 15 };
+            int[] expected = { 4, 8, 15, 16, 23, 42 };
+
+            int[] actual2 = { 42, 8, 4, 23, 16, 15 };
+            int[] expected2 = { 4, 8, 15, 16, 23, 42 };
+
+            Quick quickSort = new Quick();
+            quickSort.quickSort(actual2, 0, 5);
+            quickSort.quickSort(expected2, 0, 5);
+
+            Assert.Equal(expected2.ToString(), actual2.ToString());
+        }
     }
 }
 
