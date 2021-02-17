@@ -6,4 +6,4 @@ Check out one of the links below to be directed to the proper readme file!
 
 [MergeSort](MergeSort.md)
 
-Not created yet -- [QuickSort]()
+[QuickSort](QuickSort.md)
