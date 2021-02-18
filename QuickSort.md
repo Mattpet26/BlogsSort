@@ -4,13 +4,13 @@
 - The partition method is utilized once the quickSort has checked that there is no value greater than the middle. So if we have numbers 1-10, once 5 has checked that it is greater than 1-4 and less than 6-10 the array is "split" into two. 
 - The split mentioned above is not literal.
 
-#Efficiency
+# Efficiency
 - Time efficiency is: O(log n)
  
 - Space efficiency is: O(n)
     - There is no additional space created, numbers are all swapped in place.
     
-#How does it work? (briefly)
+# How does it work? (briefly)
 - Values are compared with a left / right. Left is 0th index and right is the last index. 
 - The left and right check each others values. If left is less than right, the new right is - 1 index.
     - We continue this step until a value is less than the left, when this happens they swap. 
